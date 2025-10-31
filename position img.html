@@ -1,0 +1,67 @@
+<html>
+
+<head>
+    <style>
+        div.containe {
+            position: absolute;
+            height: 100%;
+        }
+
+        img {
+            width: 100%;
+            opacity: 0.5;
+            height: auto;
+        }
+
+        .topleft {
+            position: absolute;
+            top: 90px;
+            left: 11px;
+            font-size: xxx-large;
+        }
+
+        .topright {
+            position: absolute;
+            right: 11px;
+            top: 90px;
+            font-size: xxx-large;
+        }
+
+        .center{
+            text-align: center;
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            font-size: xxx-large;
+        }
+        .bottomleft{
+            position: absolute;
+            left: 11px;
+            bottom: 60px;
+            font-size: xxx-large;
+        }
+        .bottomright{
+            position: absolute;
+            right: 11px;
+            bottom: 60px;
+            font-size: xxx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Position Text on Image</h2>
+
+    <p>Position a text on an image in the top left corner:</p>
+
+    <div class="container">
+        <img src="CSSimg/img_5terre_wide.jpg" alt="Cinque Terre" width="1000" height="300">
+        <div class="topleft">Top Left</div>
+        <div class="topright">Top Right</div>
+        <div class="bottomleft">Bottom Left</div>
+        <div class="bottomright">Bottom Right</div>
+        <div class="center">Centered</div>
+    </div>
+</body>
+
+</html>

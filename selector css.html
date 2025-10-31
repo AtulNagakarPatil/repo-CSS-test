@@ -1,0 +1,53 @@
+<html>
+    <head>
+        <title>selector</title>
+<style>
+    *{
+        background-color: rgb(145, 144, 144);
+    }
+    h1{
+        color: chartreuse;
+    }
+    .p{
+        font-size: x-large;
+        color: red;
+    }
+    #para1{
+        text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xx-large;
+    }
+    p.center{
+        text-align: center;
+
+    }
+    p.red{
+        color: red;
+    }
+    h3,h2,p{
+        color:yellowgreen;
+        font-size: xx-large;
+    }
+</style>
+    </head>
+<body>
+    <!-- element selector -->
+    <h1>top right bottom left & CSS Rounded Borders</h1>
+    <!-- class selector -->
+    <p class="p">top right bottom left & CSS Rounded Borders</p>
+    <!-- id selector -->
+     <p id="para1">Hello World!</p>
+<p>This paragraph is not affected by the style.</p>
+
+<!-- element can refer more than one class -->
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+<p class="center red">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+
+
+<!-- grouping selector -->
+<h3>Hello World!</h1>
+<h2>Smaller heading!</h2>
+<p>This is a paragraph.</p>
+</body>
+    </html>

@@ -1,0 +1,76 @@
+<html>
+<head>
+<style>
+table, td, th {  
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td {
+  padding: 10px;
+  border-bottom: 1px solid #555353;
+}
+tr:hover{
+    background-color: coral;
+}
+tr:nth-child(even){
+    background-color: #f2f2f2;
+}
+th{
+    background-color: #04AA6D;
+    color: white;
+}
+</style>
+</head>
+<body>
+
+<h2>The padding Property</h2>
+
+<p>Add space between the border and the content in a table.</p>
+<p>Add the border-bottom property to th and td for horizontal dividers:</p>
+
+
+<h2>Hoverable Table</h2>
+<p>Move the mouse over the table rows to see the effect.</p>
+
+
+<h2>Zebra-striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+
+
+<h2>Colored Table Header</h2>
+
+<table>
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th>
+    <th>Savings</th>
+  </tr>
+  <tr>
+    <td>Peter</td>
+    <td>Griffin</td>
+    <td>$100</td>
+  </tr>
+  <tr>
+    <td>Lois</td>
+    <td>Griffin</td>
+    <td>$150</td>
+  </tr>
+  <tr>
+    <td>Joe</td>
+    <td>Swanson</td>
+    <td>$300</td>
+  </tr>
+  <tr>
+    <td>Cleveland</td>
+    <td>Brown</td>
+    <td>$250</td>
+  </tr>
+</table>
+
+</body>
+</html>
